@@ -1,0 +1,122 @@
+@media(max-width: 500px){
+    #navbar .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 1.2rem;
+    }
+    #navbar .container h1 {
+        margin-bottom: 0.9rem;
+    }
+    #navbar ul li {
+        /* flex-direction: column; */
+        padding: 1px;
+        margin-bottom: 0.5rem;
+    }
+    /* below */
+    #below {
+        display: block;
+        
+    }
+    
+    #below .image {
+        display: none;
+    }
+    #below .container .inf p {
+        padding: 20px 30px;
+        line-height: 1.5rem;
+        /* padding-bottom: 20px; */
+    }
+    /* #below .container .rm {
+        margin-bottom: 5px;
+    } */
+    /* About */
+    #abt .container {
+        height: 140vh;
+
+    }
+    #abt .container .us  {
+        flex-direction: column;
+        height: 60%;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+            /* History*/
+    #history {
+        height: 150vh;
+    }
+    #history .container {
+        height: 90%;
+        
+    }
+    #history .container .p {
+        /* display: block; */
+        line-height: 1.5rem;
+    }
+
+    
+
+    #who {
+        height:300vh;
+    }
+
+    /* contact */
+
+    /* #contact .contact-form {
+        flex-direction: column;
+        height: 100vh
+    }
+     #contact .contact-form label {
+        display: inline;
+    } 
+    #contact .contact-form .form-group{
+        height: 15%; */
+    }
+    /* info */
+    /* #contact-info {
+        height:100vh;
+        width: 100vw;
+    }
+   
+    #contact-info .container  {
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+        text-align: left;
+        height: 33%;
+    } */
+    /* paste */
+    #testimonialzz {
+        height: 250vh;
+    }
+    #testimonialzz .container h2 {
+        margin: 0 0;
+    }
+    #testimonialzz .container .testimoniall {
+        margin: 5px;
+        
+    }
+    #testimonials .container .testimonial img {
+        width: 100px;
+        border-radius: 50%;
+        object-fit: fill;
+        margin-top:3px;
+        height:100px;
+    }    
+    #contact-info {
+        height: 100vh;
+        width: 100vw;
+    }
+    #contact-info .container {
+        flex-direction: column;
+        height: 100%;
+        width:100%;
+    }
+    #contact-info .container .box {
+        width: 100%;
+        padding: 0.8rem;
+    }
+    
+}
+
+
+
